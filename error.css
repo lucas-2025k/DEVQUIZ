@@ -1,0 +1,38 @@
+body{
+    font-size: 16px;
+justify-content: center;
+background-color: brown;
+margin: 0;
+height: 100vh; /* Altura total da tela */
+display: flex;
+justify-content: center; /* Centraliza horizontalmente */
+align-items: center; /* Centraliza verticalmente */
+flex-direction: column; /* Organiza os elementos em coluna */
+
+}
+.h1{
+text-align: center;
+color: white;
+
+}
+img{
+    max-width: 300px; /* A imagem não ultrapassará 300px de largura */
+    width: 100%; /* A imagem ocupará 100% da largura do contêiner, mas respeitará o max-width */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 20px; /* Espaço à direita da imagem */
+}
+            
+
+.return{
+     
+        font-size: 30px; /* Ajusta o tamanho da fonte do link */
+        color: blue; /* Define a cor do link */
+        text-decoration: none; /* Remove o sublinhado padrão */
+        padding: 20px 25px; /* Adiciona espaço ao redor do texto */
+        border: 1px solid blue; /* Adiciona uma borda ao redor do link */
+        border-radius: 5px; /* Arredonda os cantos da borda */
+        display: inline-block; /* Permite que o padding funcione corretamente */
+    }
+    
+    
+

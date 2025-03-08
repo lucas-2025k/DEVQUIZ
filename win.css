@@ -1,0 +1,44 @@
+body{
+    font-size: 16px;
+    justify-content: center;
+    background-color: rgb(8, 8, 8);
+    margin: 0;
+    height: 100vh; /* Altura total da tela */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    
+
+
+}
+.parabens{
+text-align: center;
+color: yellow;
+
+
+}
+.tainer{
+    text-align: center; /* Centraliza o texto dentro do container */
+
+}
+img{
+    max-width: 300px; /* A imagem não ultrapassará 300px de largura */
+    width: 100%; /* A imagem ocupará 100% da largura do contêiner, mas respeitará o max-width */
+    height: auto; /* Mantém a proporção da imagem */
+
+
+
+}
+.link{
+   
+    font-size: 20px; /* Ajusta o tamanho da fonte do link */
+    color: rgb(255, 238, 0); /* Define a cor do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    padding: 20px 25px; /* Adiciona espaço ao redor do texto */
+    margin: 20px; /* Adiciona 10px de margem externa */
+    border: 1px solid rgb(255, 251, 0); /* Adiciona uma borda ao redor do link */
+    border-radius: 5px; /* Arredonda os cantos da borda */
+    display: inline-block; /* Permite que o padding funcione corretamente */
+
+}

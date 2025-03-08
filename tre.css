@@ -1,0 +1,56 @@
+body{
+        
+        font-size: 16px;
+        background-color: rgb(30, 221, 30);     
+        margin: 0;
+        height: 100vh; /* Altura total da tela */
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        flex-direction: column; /* Organiza os elementos em coluna */
+        
+    }
+     
+    .correto{
+            display: flex;
+            font-size: 50px;
+            align-items: center;
+            justify-content:center;
+            color: rgb(248, 248, 248);
+        
+         
+    }
+
+    .container {
+        text-align: center; /* Centraliza o texto dentro do container */
+    }
+    img {
+        max-width: 300px; /* A imagem não ultrapassará 300px de largura */
+        width: 100%; /* A imagem ocupará 100% da largura do contêiner, mas respeitará o max-width */
+        height: auto; /* Mantém a proporção da imagem */
+                }
+                .next-question {
+                                padding: 10px 20px; /* Espaçamento interno do botão */
+                                font-size: 16px; /* Tamanho da fonte do botão */
+                                cursor: pointer; /* Muda o cursor para indicar que é clicável */
+                            
+
+
+
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

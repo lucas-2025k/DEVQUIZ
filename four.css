@@ -1,0 +1,78 @@
+body{
+background-color: black;
+
+}
+.tainer{
+    text-align: center; /* Centraliza o texto dentro do container */
+
+}
+img{
+    max-width: 300px; /* A imagem não ultrapassará 300px de largura */
+    width: 100%; /* A imagem ocupará 100% da largura do contêiner, mas respeitará o max-width */
+    height: auto; /* Mantém a proporção da imagem */
+
+
+}
+h1.or{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(237, 255,77);
+color: rgb(0, 0, 0);
+}
+body {
+    display: flex;
+    flex-direction: column; /* Alinha os elementos em coluna */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura da tela */
+    margin: 0; /* Remove margens padrão */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100px;
+    color: white;
+    }
+
+
+h1 {
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.buttons {
+    display: flex; /* Ativa o flexbox para os botões */
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+button {
+    padding: 10px 20px; /* Espaçamento interno dos botões */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s, transform 0.2s; /* Transição suave para hover */
+}
+
+.sim {
+    background-color: #38a83c; /* Cor de fundo do botão "Sim" */
+    color: rgb(248, 248, 248); /* Cor do texto do botão "Sim" */
+}
+
+.nao {
+    background-color: #f44336; /* Cor de fundo do botão "Não" */
+    color: white; /* Cor do texto do botão "Não" */
+}
+
+/* Efeitos de hover */
+.sim:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse no botão "Sim" */
+    transform: scale(1.05); /* Aumenta ligeiramente o botão */
+}
+
+.nao:hover {
+    background-color: #e53935; /* Cor de fundo ao passar o mouse no botão "Não" */
+    transform: scale(1.05); /* Aumenta ligeiramente o botão */
+}
